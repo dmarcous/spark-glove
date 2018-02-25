@@ -1,6 +1,8 @@
 # spark-glove
 
-An implementation of GloVe model for learning word representations for big text corpuses distributed with Apache Sparkk
+An implementation of GloVe model for learning word representations for big text corpuses distributed with Apache Spark.
+
+Based on the original implementation : https://github.com/stanfordnlp/GloVe
 
 ## Details
 
@@ -82,7 +84,7 @@ Parameters stated above
 /usr/lib/spark/bin/spark-submit --class com.glove.GloVeRunner /tmp/glove.jar /tmp/input/w_spok_2012.txt 5 50 15 15 100 0.75
 ```
 
-##Credits
+## Credits
 
 Written and maintained by :
 
